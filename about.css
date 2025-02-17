@@ -1,0 +1,652 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'jost', sans-serif;
+    
+}
+
+.header{
+    height: 113px;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: right;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    /* text-align: right; */
+}
+
+nav img{
+    max-width: 110px;
+    height: 100px;
+    margin: 0px 0px -32px;
+    padding: 10px;
+    position: absolute;  
+    top: 0;
+    left: 20px;
+}
+  
+.nav-links {
+    overflow: visible;
+    display: flex;
+    max-width: 100%;
+    height: 56px;
+    flex: 1;
+    text-align: center;  
+    justify-content: right;
+}
+
+.nav-links a {
+    color: #273F80;
+    fill: #273F80;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin: 0px 17.5px 0px 0px;
+    padding: 16px 0px;
+    text-align: center;
+  
+}
+  
+.subnav {
+    overflow: visible;
+}
+  
+.subnav .subnavbtn {
+    color: #273F80;
+    fill: #273F80;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin: 0px 17.5px 0px 0px;
+    padding: 16px 16px;
+    text-align: right;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    
+}
+  
+.nav-links a:hover, .subnav:hover .subnavbtn {
+    color: #DF4727;
+}
+  
+.subnav-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 199px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 2px;
+    z-index: 1;
+}
+  
+.subnav-content a {
+    /* float: center; */
+    color: #273F80;
+    text-decoration: none;
+    margin-right: 0px;
+}
+  
+.subnav-content a:hover {
+    background-color: #eee;
+    color: #DF4727;
+}
+  
+.subnav:hover .subnav-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-call{ 
+    background-color: #DF4727;
+    color: #FFFFFF;
+    fill: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 1.5em;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-color: #DF4727;
+    border-radius: 5px 5px 5px 5px;
+    padding: 11px 30px 11px 30px;
+    margin: 0px 20px 0px 20px;
+    align-items: center;
+    justify-content: right;
+    cursor: pointer;
+}
+
+nav .fa-sharp{
+    display: none;
+}
+nav .fa-duotone {
+    display: none;
+}
+
+
+
+/* About Us */
+
+.about-image{
+    height: 327px;
+    max-width: 100%;
+    background:url(img/top-ports-1.webp) ;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.about-text{
+    position: relative; 
+    margin-top: -235px;
+    padding-left: 35px;
+}
+
+.about-text h1{ 
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about-text h4{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about-btn{
+    font-family: "Inter",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1em;
+    color: #FFFFFF;
+    background-color: #DF4727;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-color: #DF4727;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+
+/* <!-- Our Mission --> */
+.our-main{
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-basis: 50%;
+    background-color: #f6f6f6;
+    padding: 80px 100px 80px 100px;
+    
+}
+.o-m, .o-v {
+    text-align: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: 20px;
+}
+.o-m h2, .o-v h2{
+    font-size: 35px;
+    color: #171717;
+    line-height: 1.3em;
+    font-weight: 600;
+    letter-spacing: -1.2px;
+    margin-bottom: 20px;
+}
+.o-m p, .o-v p{ 
+    font-size: 14px;
+    color: #484848;
+    line-height: 1.3em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+/* <!-- WHO WE ARE --> */
+.wwa-main{
+    display: flex;
+    margin: 120px 70px 125px 70px;
+}
+.wwa{ flex-basis: 50%; 
+    margin: 0px 70px 0px 0px;
+    
+}
+.wwa-pic img{
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 15px 15px 15px 15px;
+}
+.wwa-text h6{ 
+    line-height: 1.25em;
+    margin: 0;
+    color: #273F80;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 25px;
+}
+.wwa-text h2{ 
+    line-height: 1.3em;
+    margin: 0;
+    color: #171717;
+    font-weight: 600;
+    letter-spacing: -1.2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.wwa-text p{
+    color: #484848;
+    font: 16px "Inter",sans-serif;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+/* <!-- WHY THE INDIAN MARKET IS BEST? --> */
+.imb{
+    min-width: 100%;
+    height: auto;
+    margin: 80px 10px 80px 0px;
+    padding: auto;
+
+}
+.imb-main{
+    display: flex;
+    flex-basis: 90%;
+    position: relative;
+    box-sizing: border-box;
+}
+.imb-submain{
+    display: flex;
+    flex-direction: column;
+}
+.imb-text{
+    max-width: 40%;
+    height: auto;
+    padding: 10px;
+}
+.imb-text h6{
+    line-height: 1.25em;
+    color: #273F80;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.imb-text h2{
+    line-height: 1.3em;
+    color: #171717;
+    font-size: 39px;
+    font-weight: 600;
+    letter-spacing: -1.2px;
+    margin-bottom: 10px;
+}
+.imb-text p{
+    color: #484848;
+    font: 16px "Inter",sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+}
+.imb-box{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    padding: 2em 2em 2em 2em;
+    border-radius: 15px 15px 15px 15px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.1);
+    transition: 0.4s;
+}
+.imb-box:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform:scale(1.1)
+}
+.imb-pic img{
+    max-width: 93.66px;
+    height: 93.66px;
+}
+.imb-t h1{
+    margin-bottom: 7px;
+    color: #273F80;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4em;
+    text-align: start;
+    margin-bottom: 10px;
+}
+.imb-t p{
+    font-family: "Inter", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #111;
+    color: white;
+    padding: 0px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    max-width: 300px;
+}
+
+.footer-logo .logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.footer-links, .footer-categories, .footer-contact {
+    max-width: 200px;
+    font-size: 16px;
+}
+
+.footer-links h3, .footer-categories h3, .footer-contact h3 {
+    margin-bottom: 10px;
+}
+
+.footer-links ul, .footer-categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li, .footer-categories li {
+    margin-bottom: 10px;
+}
+
+.footer-links a, .footer-categories a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover, .footer-categories a:hover {
+    color: #E94E32;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.footer-contact img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.footer-bottom {
+    text-align: left;
+    padding: 0px 70px 0px 70px;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.footer-bottom .social-icons {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsive design */
+@media (max-width: 700px){
+
+    .nav-links {
+        display: block;
+        position: absolute;
+        height: 110px;
+        width: 100%;
+        top: 100%;
+        right: -100%;
+        background-color: #FFFFFF;
+        z-index: 2;
+    }
+    .nav-links a{
+        padding: 10px;
+    }
+    nav .fa-sharp{
+        margin-top: 20px;
+        /* display: block; */
+        color: #DF4727;
+        margin: 20px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    nav .fa-duotone {
+        display: block;
+        color: #DF4727;
+        margin: 20px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+
+    .phone-call{ 
+        display: none;
+    }
+
+    .home-option{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        padding: 2em 2em 2em 2em;
+        /* border-radius: 15px 15px 15px 15px; */
+        margin: 0px 45px 0px 45px;
+        background-color: #FFFFFF;
+        margin-top: 70px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .h-o{ display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .h-o-p img{
+        height: auto;
+        max-width: 70px;
+    }
+    .h-o-t h1{
+        font-size: 17px;
+        text-align: center;
+    }
+    .h-o-t p{
+        font-size: 11px;
+        text-align: center;
+    }
+    
+}
+
+    /* <!-- WHO WE ARE --> */
+.wwa-main{
+    flex-direction: column;
+    margin: 30px;
+}
+/* Top Ports Popular Categories */
+.cat-main{
+    flex-direction: column;
+}
+.cat-text h2{
+    font-size: 35px;
+}
+.cat-text p{
+    font: 14px "Inter",sans-serif;
+}
+
+/* <!-- At Top Ports --> */
+
+.atp-pic{
+    max-width: 600px;
+    height: 596px;
+    position: relative;
+    background: url(img/cta-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    margin-bottom: -233px;
+}
+.atp-text{
+    top: -60px;
+    left: 30px;
+}
+.atp-text h2{
+    font-size: 22px;}
+.atp-text p{
+    font-size: 10px;
+}
+
+/* <!-- WHY THE INDIAN MARKET IS BEST? --> */
+.imb-main{
+    flex-direction: column;
+    flex-basis: 50%;
+    margin: 20px;
+}
+.imb-text{
+    max-width: 100%;
+}
+.imb-pic img{
+    max-width: 80px;
+    height: auto;
+    margin-right: 15px;
+}
+.imb-t h1{
+    font-size: 16px;
+}
+.imb-t p{
+    font-size: 11px;
+}
+
+
+.wwa{ flex-basis: 0%; 
+    margin: 0px 0px 0px 0px; 
+}
+.wwo-main{
+    margin-top: 35px;
+}
+
+/* WHAT WE OFFER */
+.wwo-boxes{
+    justify-content: center;
+}
+.wwo-box{
+    flex-basis: 100%;
+}
+
+
+
+/* <!-- TOP PORTS --> */
+.tp-text h2{
+    font-size: 32px;
+}
+.tp-box-main{
+    display: contents;
+}
+.tp-boxes{
+    margin: 10px 10px 10px 10px;
+}
+
+.tp-boxes h3{
+    margin-bottom: 10px;
+}
+.tp-box-2{
+    margin-top: 0px; 
+}
+.tp-box-5{
+    margin-top: 0px; 
+}
+
+
+.footer {
+    padding: 30px;
+}
+
+.footer-container {
+    display: contents;
+    
+}
+
+.footer-links, .footer-categories {
+    max-width: 100%;
+    font-size: 16px;
+    margin-top: 20px;
+    /* margin-bottom: 250px; */
+}
+.footer-links{
+    margin-right: 100px;
+}
+.flex{
+    display: flex;
+}
+.footer-contact{ display: none;}
+
+.footer-bottom {
+    text-align: left;
+    padding: 0px 70px 0px 70px;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-bottom: 350px;
+}
+
+
+}
